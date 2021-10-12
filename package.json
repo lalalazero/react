@@ -103,6 +103,7 @@
     "testRegex": "/scripts/jest/dont-run-jest-directly\\.js$"
   },
   "scripts": {
+    "play": "yarn build react/index,react-dom/index --type=UMD",
     "build": "node ./scripts/rollup/build.js",
     "build-for-devtools": "cross-env RELEASE_CHANNEL=experimental yarn build react/index,react-dom,react-is,react-debug-tools,scheduler,react-test-renderer,react-refresh --type=NODE",
     "linc": "node ./scripts/tasks/linc.js",
