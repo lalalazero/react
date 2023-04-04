@@ -15,6 +15,10 @@
             "url": "http://localhost:6002/example/index.html",
             "webRoot": "${workspaceFolder}",
             "sourceMaps": true,
+            "skipFiles": [
+              "<node_internals>/**",
+              "babel.min.js"
+            ]
         }
     ]
 }

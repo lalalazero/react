@@ -10,8 +10,9 @@ function App() {
 
   return (
     <div>
-      <p>{count}</p>
-      <button onClick={handleClick}>+1</button>
+      hello world
+      {/* <p>{count}</p> */}
+      {/* <button onClick={handleClick}>+1</button> */}
     </div>
   );
 }
