@@ -3,7 +3,10 @@ const container = document.querySelector('.container');
 function App() {
   const [count, setCount] = React.useState(1)
 
-  const handleClick = () => setCount(count+1)
+  const handleClick = () => {
+    debugger
+    setCount(count+1)
+  }
 
   return (
     <div>
@@ -13,6 +16,7 @@ function App() {
   );
 }
 
+debugger
 const root = ReactDOM.createRoot(container);
 
 root.render(<App />);

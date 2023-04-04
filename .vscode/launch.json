@@ -3,10 +3,18 @@
         {
             "name": "Launch Chrome",
             "request": "launch",
-            "type": "pwa-chrome",
-            "url": "http://localhost:6002/example/index",
+            "type": "chrome",
+            "url": "http://localhost:6002/fixtures/packaging/babel-standalone/dev.html",
             "webRoot": "${workspaceFolder}",
-            "sourceMaps": true            
+            "sourceMaps": true
+        },
+        {
+            "name": "Launch example",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:6002/example/index.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true,
         }
     ]
 }
