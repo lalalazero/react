@@ -10,7 +10,8 @@ function App() {
 
   return (
     <div>
-      hello world
+      <p>Hello World</p>
+      <p>this is 2nd paragraph</p>
       {/* <p>{count}</p> */}
       {/* <button onClick={handleClick}>+1</button> */}
     </div>
